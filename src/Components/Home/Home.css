@@ -1,0 +1,58 @@
+/* FORBACKGROUND CLASS IS USED FOR HOME PAGE BACKGROUND AND NAVBAR BACKGROND   */
+.ForBackground{
+    background: rgb(24,89,129);
+background: linear-gradient(286deg, rgba(24,89,129,1) 11%, rgba(27,35,61,1) 0%);
+}
+.Welcome_title{
+  font-size: 55px;
+}
+
+.Adhyan_about{
+background: linear-gradient(286deg, rgba(24,89,129,1) 0%, rgba(27,35,61,1) 0%);
+}
+/* OUR OFFERING AND CARD WHICH IS USED IN THAT PLACE , CSS HERE */
+.Home_Our_offerings{
+    background-color: #a2d9ff;
+    margin-top: -6%;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #6b4328;
+    margin-bottom: 20px; /* Add margin between cards */
+    height: 90%;
+  }
+  
+/* OUR WORKING PROCESS CSS HERE */
+  .Our_working_process{
+    background: rgb(27,35,61);
+    background: linear-gradient(286deg, rgba(27,35,61,1) 9%, rgba(51,205,185,1) 43%, rgba(24,89,129,1) 97%);
+  }
+
+  .marquee-container {
+    width: 300px;
+    overflow: hidden;
+}
+
+/* Style the marquee content */
+.marquee-content {
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+}
+
+/* Pause the animation when hovering */
+.marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+/* Define the scrolling animation */
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
